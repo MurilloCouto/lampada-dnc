@@ -1,0 +1,60 @@
+* {
+    background-color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 800;
+}
+
+#logo {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#lampada {
+    margin-left: 30%;
+    width: 40%;
+    height: 50%;
+    background-color: whitesmoke;
+}
+
+div {
+    background-color: whitesmoke;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    margin: auto;
+    align-content: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+button {
+    color: white;
+    background-color: rgb(74, 74, 247);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 25%;
+    border-radius: 10px;
+    border: 0;
+    padding: 8px;
+}
+
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(30, 30, 189);
+    }
+
+#botoes {
+    display: inline-flex;
+    justify-content: space-around;
+}
